@@ -10,3 +10,19 @@ td, th {
     padding: 15px;
     border-width: 1px;
 }
+th {
+    background-color: aqua;
+    text-align: start;
+}
+tfoot{
+    background-color: bisque;
+    font-weight: bold;
+    text-align: right;
+}
+td{
+    color: darkblue;
+    padding: 5px;
+}
+#22{
+    font-weight: bold;
+}
