@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+ul {
+    border-style: dotted;
+    width: 20%;
+}
+
+ol {
+    border-style: groove;
+    width: 60%;
+    list-style-type: decimal-leading-zero;
+}
+
+li {
+    width: 60%;
+}
+
+#idiot {
+    color: red;
+}
+
+#B {
+    color: green;
+}
+
+#A {
+    color: yellow;
+}
+
+#Roman {
+    color: violet;
+    list-style-type: upper-roman;
+}
