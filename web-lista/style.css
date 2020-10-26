@@ -7,10 +7,6 @@ body {
     background-color: azure;
 }
 
-ul {
-    border-style: dotted;
-    width: 20%;
-}
 
 ol {
     border-style: groove;
@@ -34,7 +30,13 @@ li {
     color: yellow;
 }
 
-#Roman {
+.Roman {
     color: violet;
     list-style-type: upper-roman;
+}
+.listaAzul{
+    color: blue;
+}
+#anid{
+    border-style: groove;
 }
