@@ -1,0 +1,95 @@
+*{
+    border-collapse: collapse;
+    border-width: 0.1px;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header, nav, footer{
+    border-style: solid;
+    height: 50px;
+}
+main, aside{
+    /*Todo el alto de la pantalla menos los 150 px del nav, el header
+    y el footer*/
+    border-style: solid;
+    height:calc(100vh - 150px);
+    overflow: auto;
+}
+aside{
+    float: left;
+    width: 100px;
+}
+main{
+    width: fit-content;
+    padding: 10px;
+    
+}
+p{
+    border-style: hidden;
+}
+footer{
+    clear: both;
+}
+aside > a{
+    display: block;
+/*Ancho respecto a elemento padre*/
+    width: 80%;
+    background-color: skyblue;
+    margin: auto;
+    margin-bottom: 5px;
+    /*padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    padding-left: 3px;*/
+    padding: 5px 3px 5px 3px;
+    color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: skyblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+aside > a:hover{
+    border-color: black;
+}
+aside > a:active{
+    color: white;
+}
+
+main > section{
+    margin-bottom: 50px;
+    border-bottom-style: groove;
+}
+/*Cada artículo tiene un título en h2 un elemento multimedia y un párrafo 
+de descripción*/
+main > section > article{
+    margin-bottom: 50px;
+}
+/*titulo*/
+main > section > article > h2{
+
+}
+/*videos, e iframes*/
+article > video, article > iframe{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+article > audio{
+    display: block;
+    width: fit-content;
+}
+section > h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: wheat;
+    padding: 5px;
+}
+article > p{
+    text-align: end;
+}

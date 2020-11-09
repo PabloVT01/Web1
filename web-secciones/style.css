@@ -5,18 +5,20 @@
 }
 
 
-header, nav, main, footer{
+header, aside, main, footer{
     border-style: solid;
     border-width: 1px;
     padding: 15px;
 }
 
-nav{
-    height: 50px;
+aside{
+    height:60px;
 }
 main{
-    height: calc( 100vh - 50px - 50px - 60px);
+    
+    height: calc(100vh- 60px - 60px - 50px);
     overflow: auto;
+    
 }
 footer{
     height: 50px;
