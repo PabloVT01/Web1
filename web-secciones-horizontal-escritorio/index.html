@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web lateral con aside</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>Nav</nav>
+    <header>Header</header>
+    <aside>Aside<br>
+        <a href="#" class="button">Home</a>
+        <a href="https://www.google.com" class="button">Google</a>
+    </aside>
+    <main>
+        <section>
+            <h1>Vídeos</h1>
+            <article>
+                <h2>Oso</h2>
+                <video controls>
+                    <!--Ante ambas opciones, el navegador coge la primera opción-->
+                    <source src=".\vids\movie.mp4" type="video/mp4">
+                    <source src=".\vids\movie.ogg" type="video/ogg">
+                    Tu navegador no soporta la etiqueta &lt;video&gt;.
+                </video>
+                <p>Un oso en un río</p>
+            </article>
+            <article>
+                <h2>Big Buck Bunny</h2>
+                <video controls>
+                    <source src=".\vids\mov_bbb.mp4" type="video/mp4">
+                    <source src=".\vids\mov_bbb.ogg" type="video/ogg">
+                    Tu navegador no soporta la etiqueta &lt;video&gt
+                </video>
+                <p>Vídeo de prueba de conejo</p>
+            </article>
+        </section>
+        <section>
+            <h1>Audios</h1>
+            <article>
+                <h2>Reliche de caballo</h2>
+                <audio controls>
+                    <source src=".\vids\horse.mp3" type="audio/mp3">
+                    <source src=".\vids\horse.ogg" type="audio/ogg">
+                </audio>
+                <p>Sonido de un caballo al relinchar</p>
+            </article>
+        </section>
+        <section>
+            <h1>Vídeos de otras fuentes</h1>
+            <article>
+                <h2>Curso HTML para principiantes</h2>
+                <iframe src="https://www.youtube.com/embed/rbuYtrNUxg4" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Este es un vídeo de HTML muy interesante</p>
+            </article>
+            <article>
+                <h2>Curso CSS</h2>
+                <iframe src="https://player.vimeo.com/video/6438396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/6438396">Learning CSS Basics - Digi Squared - Tutorial 1</a> from <a href="https://vimeo.com/user2259418">John Loudon</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </article>
+        </section>
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>
