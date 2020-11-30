@@ -6,7 +6,9 @@ nav > div{
     padding: 10px;
 }
 nav{
+    
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
