@@ -1,0 +1,7 @@
+<persona mayorDeEdad= "True">
+    <nombre>Pablo</nombre>
+    <apellido>Vinyas</apellido>
+    <telefono>
+        <telefono1>974212374</telefono1>
+        <telefono2>727713311</telefono2>
+    </telefono>

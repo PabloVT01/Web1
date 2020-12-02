@@ -1,0 +1,8 @@
+nombre: Pablo
+apellido: Vinyas
+nick: PabloVT01
+edad: 19
+mayorDeEdad: true
+telefonos:
+  - "974212374"
+  - "727713311"
